@@ -21,3 +21,8 @@ console.log(arr3);
 console.log(arr4);
 let arr5=[...arr3,...arr4];
 console.log(arr5)
+
+
+// with built In method
+const arr = [1,2,2,3,4,3,1]
+console.log(... new Set(arr))
